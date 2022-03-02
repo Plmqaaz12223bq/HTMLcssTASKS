@@ -11,3 +11,30 @@ background-repeat: no-repeat;
 #link u a{color: red;}
 #co {color: red;}
 #red {color: red;}
+
+
+
+
+
+
+
+body {font-family:cursive;}
+
+h2 {color: rgb(50, 130, 225); 
+background-color: rgb(150, 210, 230);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+#p1 b {color: rgb(60, 111, 230);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#table {border-collapse: collapse;}
+
+.tr1 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;}
+
+.gray {background-color: rgb(210, 210, 210);}
+#hhh {font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;}
+
+#ss {background-color: rgb(160, 160, 160);}
