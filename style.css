@@ -1,40 +1,71 @@
-#p1{color: orange;}
-
-#p3{ background-image: url("https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg&ga=GA1.2.2133330501.1641081600" );
-background-size: cover;
-background-repeat: no-repeat;
-}
-
-
-.test {color: blue;}
-.orang {color: orange;}
-#link u a{color: red;}
-#co {color: red;}
-#red {color: red;}
-
-
-
-
-
-
-
-body {font-family:cursive;}
-
-h2 {color: rgb(50, 130, 225); 
-background-color: rgb(150, 210, 230);
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-h1 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-#p1 b {color: rgb(60, 111, 230);
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#table {border-collapse: collapse;}
-
-.tr1 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-text-align: center;}
-
-.gray {background-color: rgb(210, 210, 210);}
-#hhh {font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;}
-
-#ss {background-color: rgb(160, 160, 160);}
+body{
+    margin: 0;
+    padding: 0;
+    background:black;
+  }
+  .middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .btn{
+    position: relative;
+    display: block;
+    color: white;
+    font-size: 10px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 30px 10px;
+    border: 2px solid rgb(211, 129, 129);
+    padding: 10px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+  }
+  .btn::before{
+    background: rgb(230, 139, 139);
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%,50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+  }
+  
+  .btn1::before{
+    width: 0%;
+    height: 50%;
+  }
+  
+  .btn1:hover::before{
+    width: 50%;
+  }
+  
+  
+  .btn2::before{
+    width: 50%;
+    height: 0%;
+  }
+  .btn2:hover::before{
+    height: 50%;
+  }
+  
+  .btn3:before{
+    width: 50%;
+    height: 0%;
+    transform: translate(30%,300%) rotate(45deg);
+  }
+  .btn3:hover:before{
+    height: 30%;
+  }
+  
+  .btn4:before{
+    width: 50%;
+    height: 0%;
+    transform: translate(30%,30%);
+  }
+  .btn4:hover::before{
+    height: 50%;
+  }
